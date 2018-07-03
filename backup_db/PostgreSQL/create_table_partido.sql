@@ -2,7 +2,6 @@ create table partido(
 	numero integer not null,
 	nome varchar not null,
 	sigla varchar not null,
-	legenda varchar not null,
 	constraint partido_pkey primary key (numero)
 );
 
