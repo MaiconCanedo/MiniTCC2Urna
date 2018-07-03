@@ -14,3 +14,5 @@ create table candidato(
 	foto_vice character varying,
 	constraint fk_partido foreign key (numero) references partido (numero)
 );
+
+insert into candidato (numero, nome, nome_vice) values (0, 'Voto Nulo', 'Nulo'), (1, 'Voto em Branco', 'Branco');

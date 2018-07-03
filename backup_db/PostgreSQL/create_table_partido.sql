@@ -1,8 +1,8 @@
 create table partido(
 	numero integer not null,
-	nome character varying,
-	sigla character varying,
-	legenda character varying,
+	nome varchar not null,
+	sigla varchar not null,
+	legenda varchar not null,
 	constraint partido_pkey primary key (numero)
 );
 
@@ -17,5 +17,6 @@ insert into partido (numero, nome, sigla) values (13, 'Partido dos Trabalhadores
 (11, 'Partido Progressista', 'PP'), (12, 'Partido Democrático Trabalhista', 'PDT'),
 (18, 'Rede Sustentabilidade', 'REDE'), (17, 'Partido Social Liberal', 'PSL'),
 (19, 'Podemos', 'PODE'), (55, 'Partido Social Democrático', 'PSD');
+(0, 'Voto Nulo', 'NULO'), (1, 'Voto em Branco', 'BRANCO');
 
 select * from partido order by numero;
