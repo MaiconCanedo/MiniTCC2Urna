@@ -15,7 +15,7 @@ insert into partido (numero, nome, sigla) values (13, 'Partido dos Trabalhadores
 (23, 'Partido Popular Socialista', 'PPS'), (22, 'Partido da República', 'PR'),
 (11, 'Partido Progressista', 'PP'), (12, 'Partido Democrático Trabalhista', 'PDT'),
 (18, 'Rede Sustentabilidade', 'REDE'), (17, 'Partido Social Liberal', 'PSL'),
-(19, 'Podemos', 'PODE'), (55, 'Partido Social Democrático', 'PSD');
+(19, 'Podemos', 'PODE'), (55, 'Partido Social Democrático', 'PSD'),
 (0, 'Voto Nulo', 'NULO'), (1, 'Voto em Branco', 'BRANCO');
 
 select * from partido order by numero;
